@@ -1,6 +1,11 @@
 grabserial
 ==========
 
+original at https://github.com/tbird20d/grabserial
+
+(Just made an pypi package of it)
+
+
 Grabserial - python-based serial dump and timing program - good for
 embedded Linux development
 
@@ -10,6 +15,11 @@ For help with command line options, use: grabserial -h
 
 Installation
 ------------
+Shortcut
+    
+    $ pip install grabserial
+
+
 If you have the python 'serial' module, you can just place grabserial
 in a directory on your path, or add the directory containing grabserial
 to your path, or just invoke grabserial directly.
